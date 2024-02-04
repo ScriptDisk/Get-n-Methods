@@ -20,6 +20,8 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
+    <None Remove="LICENSE" />
+    <AvaloniaResource Include="LICENSE" />
     <Content Include="Assets\report-repo.ico" />
     <Folder Include="Properties\" />
   </ItemGroup>
@@ -39,7 +41,7 @@
 
 
 	<ItemGroup>
-	  <None Update="LICENSE">
+	  <None Update="Assets\LICENSE">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>

@@ -69,7 +69,7 @@
 						HorizontalAlignment="Stretch"
 						VerticalContentAlignment="Center"
 						DockPanel.Dock="Left"
-						FontSize="12"
+						FontSize="13"
 						IsReadOnly="True"
 						Text="{Binding SelectedDirectory}"
 						Watermark="Selected File" />

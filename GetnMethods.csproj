@@ -20,6 +20,10 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
+    <AvaloniaXaml Remove="Installer\**" />
+    <Compile Remove="Installer\**" />
+    <EmbeddedResource Remove="Installer\**" />
+    <None Remove="Installer\**" />
     <None Remove="LICENSE" />
     <AvaloniaResource Include="LICENSE" />
     <Content Include="Assets\report-repo.ico" />

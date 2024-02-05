@@ -112,8 +112,6 @@ public class MainWindowViewModel : ViewModelBase
                 return;
             }
 
-            // Specify the path where the log file will be saved
-            // Consider asking the user for a location or using a common location
             string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),"LogData.txt");
 
             await File.WriteAllTextAsync(filePath,_logBuilder.ToString());
